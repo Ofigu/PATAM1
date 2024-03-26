@@ -1,7 +1,5 @@
 package test;
 
-import java.util.ArrayList;
-
 public class Board {
     Tile[][] board;
     String[][] colors;
