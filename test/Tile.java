@@ -1,8 +1,8 @@
 package test;
 import java.util.Random;
 public class Tile {
-    private final char letter;
-    private final int score;
+    public final char letter;
+    public final int score;
 
  private Tile(char letter, int score) {
     this.letter = letter;
