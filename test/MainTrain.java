@@ -99,7 +99,7 @@ public class MainTrain {
 		if(IOSearcher.search("cat", "text1.txt","text2.txt"))
 			System.out.println("your IOsearch found a word that does not exist (-5)");		
 	}
-	
+	 
 	public static void testDictionary() {
 		Dictionary d = new Dictionary("text1.txt","text2.txt");
 		if(!d.query("is"))
@@ -107,7 +107,7 @@ public class MainTrain {
 		if(!d.challenge("lazy"))
 			System.out.println("problem with dictionarry in query (-5)");
 	}
-
+	
 	public static void main(String[] args) {
 		testLRU();
 		testLFU();
@@ -118,7 +118,7 @@ public class MainTrain {
 		} catch(Exception e) {
 			System.out.println("you got some exception (-10)");
 		}
-		testDictionary();
+		testDictionary(); 
 		System.out.println("done");
 	}
 }
